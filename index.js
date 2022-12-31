@@ -1,4 +1,11 @@
-var randomNumber1 = Math.random();
-randomNumber1 = randomNumber1 * 6;
-randomNumber1 = Math.floor(randomNumber1);
-console.log(randomNumber1);
+var randomNumber1 = Math.floor(Math.random()*6)+1;
+
+var source = "images/dice" + randomNumber1 + ".png";
+
+document.querySelector(".img1").setAttribute("src",source);
+
+var randomNumber1 = Math.floor(Math.random()*6)+1;
+
+var source = "images/dice" + randomNumber1 + ".png";
+
+document.querySelector(".img2").setAttribute("src",source);
